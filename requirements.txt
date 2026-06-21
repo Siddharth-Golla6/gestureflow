@@ -1,0 +1,12 @@
+mediapipe>=0.10.0
+opencv-python>=4.8.0
+numpy>=1.24.0
+pyautogui>=0.9.54
+
+# Volume control — pick ONE based on your OS:
+#   Windows  → uncomment pycaw
+#   Mac/Linux → see README; use osascript / amixer (built-in, no pip needed)
+pycaw>=20181226            # Windows only
+
+# Brightness control (cross-platform)
+screen-brightness-control>=0.23.0
